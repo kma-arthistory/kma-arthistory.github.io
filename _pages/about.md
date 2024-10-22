@@ -1,49 +1,18 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Ke Ma | Ph.D. Candidate in Art History"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+**Ke Ma** is a Ph.D. Candidate in Art History at Ludwig-Maximilians-Universität München under the supervision of Prof. Dr. Stephan Hoppe. From 2015 to 2022, she studied Art History, Classical Archaeology, and Byzantine Archaeology at Albert-Ludwigs-Universität Freiburg and Ludwig-Maximilians-Universität München. 
+In January 2022, Ke Ma completed her Master's degree in Art History with the thesis "From Encyclopedic Kunstkammer to Porcelain Cabinet: The Collection of Chinese Objects and Their Spatial Contexts at Friedenstein Castle". At the same time, she completed a Master's in Classical Archaeology with a thesis titled "Medea and Procne: Two Tragic Filicides in Text and Image". 
+Currently, Ke Ma works as a junior researcher on the long-term research project "Corpus of Baroque Ceiling Painting in Germany" at the Bavarian Academy of Sciences and Humanities. In her research, Ke Ma focuses on 18th-century 'chinois' rooms in German courts. Through historical archives and other sources, she examines and analyzes Chinese collections and their decorative applications in late Baroque German palaces. Her work explores the dissemination, reception, misinterpretation, and recontextualization of East Asian art within European court culture.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+**Ke Ma** ist Doktorandin der Kunstgeschichte an der Ludwig-Maximilians-Universität München unter der Betreuung von Prof. Dr. Stephan Hoppe. Von 2015 bis 2022 studierte sie Kunstgeschichte, Klassische Archäologie und Byzantinische Archäologie an der Albert-Ludwigs-Universität Freiburg und der Ludwig-Maximilians-Universität München. 
+Im Januar 2022 absolvierte Ke Ma ihren Master in Kunstgeschichte mit der Abschlussarbeit "Von der enzyklopädischen Kunstkammer zum Porzellankabinett: Die Sammlung chinesischer Objekte und ihre räumlichen Kontexte auf Schloss Friedenstein". Gleichzeitig absolvierte sie einen Master in Klassischer Archäologie mit der Arbeit "Medea und Prokne: Zwei tragische Kindsmörderinnen in Text und Bild".
+Derzeit arbeitet Ke Ma als wissenschaftliche Mitarbeiterin am Forschungsprojekt "Corpus der barocken Deckenmalerei in Deutschland" an der Bayerischen Akademie der Wissenschaften. In ihrer Forschung konzentriert sich Ke Ma auf die 'chinoisen' Räume des 18. Jahrhunderts. Anhand von Archivmaterialien und anderen Quellen untersucht und analysiert sie chinesische Sammlungen und deren dekorative Anwendungen in deutschen spätbarocken Schlossbauten. Ihre Arbeit erforscht die Verbreitung, Rezeption, Missdeutung und Rekontextualisierung ostasiatischer Kunst innerhalb der europäischen Hofkultur. 
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**马可**是慕尼黑大学艺术史专业的博士研究生，师从Stephan Hoppe教授。她于2015年至2022年间在德国弗赖堡大学和慕尼黑大学学习艺术史、古典考古与拜占庭考古等专业。马可于2022年一月提交“从百科全书式珍奇室到瓷器房间：弗里登施泰因城堡的中国收藏及其空间语境”硕士论文，获艺术史硕士学位；同期提交“美狄亚与普罗克涅：希腊悲剧中的女性’弑子者’形象——戏剧文本与图像的比较研究”硕士论文，获古典考古学硕士学位。马可现以青年学者身份参与巴伐利亚科学院“巴洛克天顶画全集”研究项目，主要从事宫廷天顶画与装饰艺术研究工作，并协助项目的数字化战略转型与数据库建设。在研究中，她以德国十八世纪的“中国风”房间为例，通过历史档案等途径，研究和整理德国巴洛克晚期宫廷中的中国藏品及其装饰应用，探讨东亚艺术在欧洲文化中的传播、接受、误读与再语境化。
